@@ -3,7 +3,8 @@ public class TwoSum {
     public static void main(String args[]){
         TwoSum twoSum = new TwoSum();
         int[] result = twoSum.twoSum(new int[]{10, 20, 30, 40, 50},90);
-        System.out.println(result);
+        System.out.println(result.length);
+        //result.length;
     }
     public int[] twoSum(int[] nums, int target){
 
